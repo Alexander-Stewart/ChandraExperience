@@ -18,7 +18,7 @@ public class ChangeScene : MonoBehaviour
             InputSystem.onAButtonPressed += UpdateScene;
     }
 
-    private void UpdateScene()  {
+    public void UpdateScene()  {
         Debug.Log("starting transition...");
         List<GameObject> gol = new  List<GameObject>();
         Scene Curscene = SceneManager.GetActiveScene();

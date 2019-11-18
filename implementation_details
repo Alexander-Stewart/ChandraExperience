@@ -1,0 +1,7 @@
+# IMPLEMENTATION DETAILS AND NOTES 
+
+September 30th:
+> establish a single canvas object attached to the camera rig
+> use this not only for the descriptions of Chandra, but also menus etc when they have to appear
+> call this canvas object "Main information holder", or something of the sort 
+> the path taken by the camera rig should be changeable, modular, it's own class of object 

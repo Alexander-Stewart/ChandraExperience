@@ -1,38 +1,34 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
-
+using UnityEngine.UI; 
 
 public class ChangingText : MonoBehaviour
 {
 
     public TextMeshProUGUI mytext = null;
-    public AudioSource audioSource;  
+    //public AudioSource audioSource;  
     private string currentPathName;
     public MoveBetweenPoints tracker; 
 
     //make sure audio clips are public 
-    public AudioClip audio1;
-    public AudioClip audio2;
-    public AudioClip audio3;
-    public AudioClip audio4;
-    public AudioClip audio5;
-    public AudioClip audio6;
-    public AudioClip audio7;
-    public AudioClip audio8;
-    public AudioClip audio9;
-    public AudioClip audio10;
+    //public AudioClip audio1;
+    //public AudioClip audio2;
+    //public AudioClip audio3;
+    //public AudioClip audio4;
+    //public AudioClip audio5;
+    //public AudioClip audio6;
+    //public AudioClip audio7;
+    //public AudioClip audio8;
+    //public AudioClip audio9;
+    //public AudioClip audio10;
     
-     // Start is called before the first frame update
+    // Start is called before the first frame update
     void Start()
     {
         //tracker= gameObject.A
         //mytext = this.getWelcomeText();
         //currentPathName = tracker.GetCurrentPath().pathName;
-
-
     }
 
     private void Update()
@@ -43,7 +39,7 @@ public class ChangingText : MonoBehaviour
 
     }
 
-    public void ChangeOutputText()
+    public Text ChangeOutputText()
     {
         switch (currentPathName)
         {
@@ -103,12 +99,11 @@ public class ChangingText : MonoBehaviour
 
             case "tour7":
                 mytext.text = "...";
-                break;
-
+                return mytext;
 
             default:
                 mytext.text= "Welcome to the Chandra X-Ray Observatory";
-                break;
+                return mytext; 
 
         }
     }

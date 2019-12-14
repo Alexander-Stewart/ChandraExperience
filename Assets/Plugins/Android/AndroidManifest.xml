@@ -30,5 +30,5 @@
       android:required="false" />
   <uses-feature android:name="android.hardware.vr.headtracking"
                 android:version="1"
-                android:required="true" /> <!-- Alex's modification -->
+                android:required="false" />
 </manifest>

@@ -88,6 +88,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7986722223874628154}
+  - {fileID: 7982305303703739916}
   m_Father: {fileID: 7982305303694042116}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -119,6 +120,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7982972115756154242}
+  - {fileID: 7982305304442740173}
   m_Father: {fileID: 7982305303694042116}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -589,8 +591,11 @@ Transform:
   m_Father: {fileID: 7982305303694042116}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/ChandraPlayerRig 2.prefab
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 3fdbd4d... we grinding:Assets/Prefabs/ChandraPlayerRig.prefab
 --- !u!1001 &7982305303703923948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -646,11 +651,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Assets/Prefabs/ChandraPlayerRig 2.prefab
     - target: {fileID: 1956530202777762, guid: d9809c5e8418bb047bf2c8ba1d1a2cec, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1999073185825882, guid: d9809c5e8418bb047bf2c8ba1d1a2cec, type: 3}
+=======
+    - target: {fileID: 11479374, guid: d9809c5e8418bb047bf2c8ba1d1a2cec, type: 3}
+      propertyPath: m_controller
+      value: 16777216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010178323718, guid: d9809c5e8418bb047bf2c8ba1d1a2cec, type: 3}
+>>>>>>> parent of 3fdbd4d... we grinding:Assets/Prefabs/ChandraPlayerRig.prefab
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -658,6 +671,7 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Assets/Prefabs/ChandraPlayerRig 2.prefab
     - target: {fileID: 1000010178323718, guid: d9809c5e8418bb047bf2c8ba1d1a2cec, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -667,11 +681,26 @@ PrefabInstance:
       value: 16777216
       objectReference: {fileID: 0}
     - target: {fileID: 23740872028335676, guid: d9809c5e8418bb047bf2c8ba1d1a2cec,
+=======
+    - target: {fileID: 1956530202777762, guid: d9809c5e8418bb047bf2c8ba1d1a2cec, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1999073185825882, guid: d9809c5e8418bb047bf2c8ba1d1a2cec, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23022262598936998, guid: d9809c5e8418bb047bf2c8ba1d1a2cec,
+>>>>>>> parent of 3fdbd4d... we grinding:Assets/Prefabs/ChandraPlayerRig.prefab
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 01ac879f6ce09924e9c26663f798beaf, type: 2}
+<<<<<<< HEAD:Assets/Prefabs/ChandraPlayerRig 2.prefab
     - target: {fileID: 23022262598936998, guid: d9809c5e8418bb047bf2c8ba1d1a2cec,
+=======
+    - target: {fileID: 23740872028335676, guid: d9809c5e8418bb047bf2c8ba1d1a2cec,
+>>>>>>> parent of 3fdbd4d... we grinding:Assets/Prefabs/ChandraPlayerRig.prefab
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -739,6 +768,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Assets/Prefabs/ChandraPlayerRig 2.prefab
     - target: {fileID: 1956530202777762, guid: d9809c5e8418bb047bf2c8ba1d1a2cec, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -756,11 +786,34 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 23740872028335676, guid: d9809c5e8418bb047bf2c8ba1d1a2cec,
+=======
+    - target: {fileID: 1000010178323718, guid: d9809c5e8418bb047bf2c8ba1d1a2cec, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1351868014986946, guid: d9809c5e8418bb047bf2c8ba1d1a2cec, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956530202777762, guid: d9809c5e8418bb047bf2c8ba1d1a2cec, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1999073185825882, guid: d9809c5e8418bb047bf2c8ba1d1a2cec, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23022262598936998, guid: d9809c5e8418bb047bf2c8ba1d1a2cec,
+>>>>>>> parent of 3fdbd4d... we grinding:Assets/Prefabs/ChandraPlayerRig.prefab
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 01ac879f6ce09924e9c26663f798beaf, type: 2}
+<<<<<<< HEAD:Assets/Prefabs/ChandraPlayerRig 2.prefab
     - target: {fileID: 23022262598936998, guid: d9809c5e8418bb047bf2c8ba1d1a2cec,
+=======
+    - target: {fileID: 23740872028335676, guid: d9809c5e8418bb047bf2c8ba1d1a2cec,
+>>>>>>> parent of 3fdbd4d... we grinding:Assets/Prefabs/ChandraPlayerRig.prefab
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -773,4 +826,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7982305304442433325}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Assets/Prefabs/ChandraPlayerRig 2.prefab
 >>>>>>> parent of b1455d8... saving changes
+=======
+>>>>>>> parent of 3fdbd4d... we grinding:Assets/Prefabs/ChandraPlayerRig.prefab

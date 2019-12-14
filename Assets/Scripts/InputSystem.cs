@@ -86,31 +86,23 @@ public class InputSystem : MonoBehaviour
         // if X is pressed
         if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch))
         {
-            Debug.Log("1");
-            if(onXButtonPressed != null)
-                onXButtonPressed();
+            onXButtonPressed();
         }
 
         // if Y is pressed
         if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.LTouch))
         {
-            Debug.Log("2");
-            if (onYButtonPressed != null)
-                onYButtonPressed();
+            onYButtonPressed();
         }
 
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.LTouch))
         {
-            Debug.Log("3");
-            if (onLeftIndexTriggerPressed != null)
-                onLeftIndexTriggerPressed();
+            onLeftIndexTriggerPressed();
         }
 
         if (OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.LTouch))
         {
-            Debug.Log("4");
-            if (onLeftHandTriggerPressed != null)
-                onLeftHandTriggerPressed();
+            onLeftHandTriggerPressed();
         }
         #endregion
 
@@ -118,31 +110,23 @@ public class InputSystem : MonoBehaviour
         // if A is pressed
         if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch))
         {
-            Debug.Log("5");
-            if (onAButtonPressed != null)
-                onAButtonPressed();
+            onAButtonPressed();
         }
 
         // if B is pressed
         if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.RTouch))
         {
-            Debug.Log("6");
-            if (onBButtonPressed != null)
-                onBButtonPressed();
+            onBButtonPressed();
         }
 
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
         {
-            Debug.Log("7");
-            if (onRightIndexTriggerPressed != null)
-                onRightIndexTriggerPressed();
+            onRightIndexTriggerPressed();
         }
 
         if (OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch))
         {
-            Debug.Log("8");
-            if (onRightHandTriggerPressed != null)
-                onRightHandTriggerPressed();
+            onRightHandTriggerPressed();
         }
         #endregion
     }

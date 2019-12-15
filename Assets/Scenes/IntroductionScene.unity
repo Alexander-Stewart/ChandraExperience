@@ -6557,17 +6557,17 @@ PrefabInstance:
     - target: {fileID: 7993983767717824702, guid: 94f435bac7d3a4ccd87dabe9a0307ec1,
         type: 3}
       propertyPath: near clip plane
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7977942050954373360, guid: 94f435bac7d3a4ccd87dabe9a0307ec1,
         type: 3}
       propertyPath: near clip plane
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7993983765399639844, guid: 94f435bac7d3a4ccd87dabe9a0307ec1,
         type: 3}
       propertyPath: near clip plane
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5424045310305717619, guid: 94f435bac7d3a4ccd87dabe9a0307ec1, type: 3}

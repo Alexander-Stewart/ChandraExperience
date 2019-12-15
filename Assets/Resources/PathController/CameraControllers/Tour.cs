@@ -71,17 +71,17 @@ public class Tour : MonoBehaviour
         p4Points[5] = new Vector3(-0.25f, 1.6f, 0);
 
         //"tour1b" 
-        p5Points[0] = new Vector3(-0.25f, -1.6f, 0f);
+        p5Points[0] = new Vector3(-0.25f, 1.6f, 0f);
         p5Points[1] = new Vector3(-0.25f, 1.6f, 0.15f);
 
         //"tour2"
-        p6Points[0] = new Vector3(-0.25f, -1.6f, 0.15f);
+        p6Points[0] = new Vector3(-0.25f, 1.6f, 0.15f);
         p6Points[1] = new Vector3(-0.25f, 1.6f, 0);
         p6Points[2] = new Vector3(0, -1.6f, 0);
         p6Points[3] = new Vector3(0.25f, -1.6f, 0);
 
         //"tour3a" 
-        p7Points[0] = new Vector3(0.5f, -1.6f, 0);
+        p7Points[0] = new Vector3(0.25f, -1.6f, 0);
         p7Points[1] = new Vector3(-0.75f, -2.6f, 0);
         p7Points[2] = new Vector3(1, -1.6f, 0);
         p7Points[3] = new Vector3(2, -1.6f, 0);

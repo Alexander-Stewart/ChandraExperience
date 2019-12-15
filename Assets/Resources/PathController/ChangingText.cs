@@ -34,7 +34,7 @@ public class ChangingText : MonoBehaviour
         switch (currentPathName)
         {
             case "prepreOrbit":
-                mytext.text= "Hello from the Chandra X-Ray Observatory. Click anywhere on the screen to orbit the spacecraft and see it from all angles.  Clicking will move you along to another stop on the tour. ";
+                mytext.text= "Hello from the Chandra X-Ray Observatory. The tour will begin shortly. Press the A button to return to the start of the experience. ";
                 return mytext; 
              
             case "preOrbit":

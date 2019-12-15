@@ -201,7 +201,7 @@ PrefabInstance:
     - target: {fileID: 6262493497822353768, guid: 48df4bc148cd54e6ba7e605ca3946e2c,
         type: 3}
       propertyPath: scene
-      value: OpeningScene
+      value: IntroLaunchScene
       objectReference: {fileID: 0}
     - target: {fileID: 6262493497822353768, guid: 48df4bc148cd54e6ba7e605ca3946e2c,
         type: 3}
@@ -5854,7 +5854,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1234019285
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6090,7 +6090,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 1
+  m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
     topLeft: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
@@ -6550,7 +6550,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7993983765399639844, guid: 94f435bac7d3a4ccd87dabe9a0307ec1,
+    - target: {fileID: 489000016, guid: 94f435bac7d3a4ccd87dabe9a0307ec1, type: 3}
+      propertyPath: movementSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7993983767717824702, guid: 94f435bac7d3a4ccd87dabe9a0307ec1,
         type: 3}
       propertyPath: near clip plane
       value: 0.25
@@ -6560,14 +6564,10 @@ PrefabInstance:
       propertyPath: near clip plane
       value: 0.25
       objectReference: {fileID: 0}
-    - target: {fileID: 7993983767717824702, guid: 94f435bac7d3a4ccd87dabe9a0307ec1,
+    - target: {fileID: 7993983765399639844, guid: 94f435bac7d3a4ccd87dabe9a0307ec1,
         type: 3}
       propertyPath: near clip plane
       value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 489000016, guid: 94f435bac7d3a4ccd87dabe9a0307ec1, type: 3}
-      propertyPath: movementSpeed
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5424045310305717619, guid: 94f435bac7d3a4ccd87dabe9a0307ec1, type: 3}
